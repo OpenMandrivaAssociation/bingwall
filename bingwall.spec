@@ -46,4 +46,5 @@ mkdir -p %{buildroot}%{_bindir}
 %make_install INSTALL_ROOT=%{buildroot}
 
 %files
-#not ready yet
+%{_bindir}/bing-wall
+%{_datadir}/applications/%{name}.desktop
