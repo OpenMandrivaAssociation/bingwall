@@ -1,5 +1,5 @@
 %define oname   BingWall
-%define gitdate git-18.02.2020
+%define gitdate 18.02.2020
 
 Name:           bingwall
 Version:        0.1
@@ -10,7 +10,7 @@ Group:          Graphical desktop
 URL:            https://github.com/keshavbhatt/BingWall
 # No release tag/tarball yet, just git.
 #Source0:        https://github.com/keshavbhatt/BingWall/releases
-Source0:        %{oname}-%{gitdate}.tar.lzma
+Source0:        %{oname}-git-%{gitdate}.tar.lzma
 
 BuildRequires:  qt5-devel
 BuildRequires:  qt5-qtbase-devel
