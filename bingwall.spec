@@ -1,3 +1,4 @@
+%define debug_package %{nil}
 %define oname   BingWall
 %define gitdate 20200417
 
