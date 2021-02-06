@@ -35,7 +35,7 @@ eatures
 -Dark Theme.
 
 %prep
-%setup -q -n %{oname}-{gitdate}
+%setup -q -n %{oname}-%{gitdate}
 
 %build
 %qmake_qt5 PREFIX=/usr
